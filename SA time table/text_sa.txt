@@ -1,0 +1,15 @@
+[fmin i]=min(temp(:,3)); % 
+x1(1)=temp(i,1); % 
+x1(2)=temp(i,2); 
+G1(N)=x1(1);  
+G2(N)=x1(2); 
+ex(N)=fmin; %
+
+[fmin M]=min(ex); %
+M   % 
+x(1)=G1(M); 
+x(2)=G2(M); 
+x 
+fmin %% 
+ti=1:N-1; 
+plot(ti,ex) %
